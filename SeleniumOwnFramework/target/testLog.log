@@ -1,0 +1,209 @@
+[INFO ] 2022-04-26 10:24:20,565 util.Log:10 - Opening basic_auth page
+[INFO ] 2022-04-26 10:24:20,573 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:20,605 util.Log:10 - Wait for presence and located: Paragraph of result text checking
+[INFO ] 2022-04-26 10:24:20,617 util.Log:10 - Get text from: Paragraph of result text checking
+[INFO ] 2022-04-26 10:24:23,097 util.Log:10 - Opening JsAlertPage
+[INFO ] 2022-04-26 10:24:23,097 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:23,109 util.Log:10 - Check if JsAlertPage is open
+[INFO ] 2022-04-26 10:24:23,147 util.Log:10 - Wait for presence and located: Js Alert Button
+[INFO ] 2022-04-26 10:24:23,160 util.Log:10 - Click on: Js Alert Button
+[INFO ] 2022-04-26 10:24:23,212 util.Log:10 - Get modal window text
+[INFO ] 2022-04-26 10:24:23,216 util.Log:10 - Click Ok on the open modal window
+[INFO ] 2022-04-26 10:24:23,221 util.Log:10 - Check if modal Window is closed
+[INFO ] 2022-04-26 10:24:23,234 util.Log:10 - Get text from: Paragraph of text result
+[INFO ] 2022-04-26 10:24:23,262 util.Log:10 - Click on: Js Confirm Button
+[INFO ] 2022-04-26 10:24:23,312 util.Log:10 - Get modal window text
+[INFO ] 2022-04-26 10:24:23,314 util.Log:10 - Click Ok on the open modal window
+[INFO ] 2022-04-26 10:24:23,321 util.Log:10 - Check if modal Window is closed
+[INFO ] 2022-04-26 10:24:23,326 util.Log:10 - Get text from: Paragraph of text result
+[INFO ] 2022-04-26 10:24:23,580 util.Log:10 - Opening slider page
+[INFO ] 2022-04-26 10:24:23,580 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:23,592 util.Log:10 - Check if slider page is open
+[INFO ] 2022-04-26 10:24:23,630 util.Log:10 - Wait for presence and located: Input slider element
+[INFO ] 2022-04-26 10:24:23,647 util.Log:10 - Random drag and drop slider
+[INFO ] 2022-04-26 10:24:24,082 util.Log:10 - Get text from: Span result value
+[INFO ] 2022-04-26 10:24:24,165 util.Log:10 - Check if range value is correct
+[INFO ] 2022-04-26 10:24:24,550 util.Log:10 - Opening Hovers page
+[INFO ] 2022-04-26 10:24:24,551 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:24,574 util.Log:10 - Check if Hovers page is open
+[INFO ] 2022-04-26 10:24:24,606 util.Log:10 - Wait for presence and located: img user1
+[INFO ] 2022-04-26 10:24:24,618 util.Log:10 - Move to element: img user1
+[INFO ] 2022-04-26 10:24:24,745 util.Log:10 - Wait for visible and located: Div invisible wrapper user1
+[INFO ] 2022-04-26 10:24:24,792 util.Log:10 - Get attribute: innerHTML from H5 user1
+[INFO ] 2022-04-26 10:24:24,823 util.Log:10 - Cut user name from innerHTML
+[INFO ] 2022-04-26 10:24:24,823 util.Log:10 - Check if Link user1 is displayed
+[INFO ] 2022-04-26 10:24:24,843 util.Log:10 - Get attribute: href from Link user1
+[INFO ] 2022-04-26 10:24:24,874 util.Log:10 - Click on: Link user1
+[INFO ] 2022-04-26 10:24:25,140 util.Log:10 - Get current Url
+[INFO ] 2022-04-26 10:24:25,147 util.Log:10 - Back to previous page
+[INFO ] 2022-04-26 10:24:25,198 util.Log:10 - Opening Hovers page
+[INFO ] 2022-04-26 10:24:25,198 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:25,210 util.Log:10 - Check if Hovers page is open
+[INFO ] 2022-04-26 10:24:25,487 util.Log:10 - Opening Hovers page
+[INFO ] 2022-04-26 10:24:25,487 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:25,497 util.Log:10 - Check if Hovers page is open
+[INFO ] 2022-04-26 10:24:25,518 util.Log:10 - Wait for presence and located: img user3
+[INFO ] 2022-04-26 10:24:25,530 util.Log:10 - Move to element: img user3
+[INFO ] 2022-04-26 10:24:25,660 util.Log:10 - Wait for visible and located: Div invisible wrapper user3
+[INFO ] 2022-04-26 10:24:25,707 util.Log:10 - Get attribute: innerHTML from H5 user3
+[INFO ] 2022-04-26 10:24:25,743 util.Log:10 - Cut user name from innerHTML
+[INFO ] 2022-04-26 10:24:25,743 util.Log:10 - Check if Link user3 is displayed
+[INFO ] 2022-04-26 10:24:25,775 util.Log:10 - Get attribute: href from Link user3
+[INFO ] 2022-04-26 10:24:25,790 util.Log:10 - Click on: Link user3
+[INFO ] 2022-04-26 10:24:26,047 util.Log:10 - Get current Url
+[INFO ] 2022-04-26 10:24:26,057 util.Log:10 - Back to previous page
+[INFO ] 2022-04-26 10:24:26,129 util.Log:10 - Opening Hovers page
+[INFO ] 2022-04-26 10:24:26,129 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:26,143 util.Log:10 - Check if Hovers page is open
+[INFO ] 2022-04-26 10:24:27,679 util.Log:10 - Opening iFrame page
+[INFO ] 2022-04-26 10:24:27,679 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:27,717 util.Log:10 - Check if iFrame page is open
+[INFO ] 2022-04-26 10:24:27,775 util.Log:10 - Click on: Left Align Button
+[INFO ] 2022-04-26 10:24:27,860 util.Log:10 - Switch to iFrame
+[INFO ] 2022-04-26 10:24:27,893 util.Log:10 - Wait for visible and located: iFrame paragraph
+[INFO ] 2022-04-26 10:24:27,927 util.Log:10 - Wait for iFrame paragraph attribute:style contains:text-align: left;
+[INFO ] 2022-04-26 10:24:27,952 util.Log:10 - Get css value: text-align from iFrame paragraph
+[INFO ] 2022-04-26 10:24:27,985 util.Log:10 - Get text from: iFrame paragraph
+[INFO ] 2022-04-26 10:24:28,006 util.Log:10 - Select the first half of Paragraph text symbols
+[INFO ] 2022-04-26 10:24:30,132 util.Log:10 - Switch to default window
+[INFO ] 2022-04-26 10:24:30,137 util.Log:10 - Click on: Format button
+[INFO ] 2022-04-26 10:24:30,311 util.Log:10 - Move to element:  Font sizes menu
+[INFO ] 2022-04-26 10:24:30,520 util.Log:10 - Click on: text size 8 Button
+[INFO ] 2022-04-26 10:24:30,657 util.Log:10 - Switch to iFrame
+[INFO ] 2022-04-26 10:24:30,680 util.Log:10 - Get css value: font-size from Span
+[INFO ] 2022-04-26 10:24:31,140 util.Log:10 - Opening JsAlertPage
+[INFO ] 2022-04-26 10:24:31,141 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:31,154 util.Log:10 - Check if JsAlertPage is open
+[INFO ] 2022-04-26 10:24:31,176 util.Log:10 - Wait for presence and located: Js Alert Button
+[INFO ] 2022-04-26 10:24:31,184 util.Log:10 - Click on: Js Alert Button by js method
+[INFO ] 2022-04-26 10:24:31,197 util.Log:10 - Get modal window text
+[INFO ] 2022-04-26 10:24:31,197 util.Log:10 - Click Ok on the open modal window
+[INFO ] 2022-04-26 10:24:31,204 util.Log:10 - Check if modal Window is closed
+[INFO ] 2022-04-26 10:24:31,210 util.Log:10 - Get text from: Paragraph of text result
+[INFO ] 2022-04-26 10:24:31,241 util.Log:10 - Click on: Js Confirm Button by js method
+[INFO ] 2022-04-26 10:24:31,261 util.Log:10 - Get modal window text
+[INFO ] 2022-04-26 10:24:31,263 util.Log:10 - Click Ok on the open modal window
+[INFO ] 2022-04-26 10:24:31,268 util.Log:10 - Check if modal Window is closed
+[INFO ] 2022-04-26 10:24:31,273 util.Log:10 - Get text from: Paragraph of text result
+[INFO ] 2022-04-26 10:24:31,290 util.Log:10 - Click on: Js Prompt Button by js method
+[INFO ] 2022-04-26 10:24:31,309 util.Log:10 - Get modal window text
+[INFO ] 2022-04-26 10:24:31,311 util.Log:10 - Enter random text in modal window
+[INFO ] 2022-04-26 10:24:31,314 util.Log:10 - Click Ok on the open modal window
+[INFO ] 2022-04-26 10:24:31,321 util.Log:10 - Check if modal Window is closed
+[INFO ] 2022-04-26 10:24:31,324 util.Log:10 - Get text from: Paragraph of text result
+[INFO ] 2022-04-26 10:24:31,780 util.Log:10 - Opening InfiniteScroll Page
+[INFO ] 2022-04-26 10:24:31,780 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:31,791 util.Log:10 - Check if InfiniteScroll Page is open
+[INFO ] 2022-04-26 10:24:31,846 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:32,398 util.Log:10 - Wait for visible and located: Div Paragraph 1
+[INFO ] 2022-04-26 10:24:32,460 util.Log:10 - Scroll to Div Paragraph 1
+[INFO ] 2022-04-26 10:24:32,506 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:33,074 util.Log:10 - Wait for visible and located: Div Paragraph 2
+[INFO ] 2022-04-26 10:24:33,121 util.Log:10 - Scroll to Div Paragraph 2
+[INFO ] 2022-04-26 10:24:33,157 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:33,714 util.Log:10 - Wait for visible and located: Div Paragraph 3
+[INFO ] 2022-04-26 10:24:33,777 util.Log:10 - Scroll to Div Paragraph 3
+[INFO ] 2022-04-26 10:24:33,822 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:34,377 util.Log:10 - Wait for visible and located: Div Paragraph 4
+[INFO ] 2022-04-26 10:24:34,442 util.Log:10 - Scroll to Div Paragraph 4
+[INFO ] 2022-04-26 10:24:34,479 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:35,074 util.Log:10 - Wait for visible and located: Div Paragraph 5
+[INFO ] 2022-04-26 10:24:35,105 util.Log:10 - Scroll to Div Paragraph 5
+[INFO ] 2022-04-26 10:24:35,144 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:35,705 util.Log:10 - Wait for visible and located: Div Paragraph 6
+[INFO ] 2022-04-26 10:24:35,736 util.Log:10 - Scroll to Div Paragraph 6
+[INFO ] 2022-04-26 10:24:35,784 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:36,343 util.Log:10 - Wait for visible and located: Div Paragraph 7
+[INFO ] 2022-04-26 10:24:36,389 util.Log:10 - Scroll to Div Paragraph 7
+[INFO ] 2022-04-26 10:24:36,439 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:36,985 util.Log:10 - Wait for visible and located: Div Paragraph 8
+[INFO ] 2022-04-26 10:24:37,017 util.Log:10 - Scroll to Div Paragraph 8
+[INFO ] 2022-04-26 10:24:37,064 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:37,621 util.Log:10 - Wait for visible and located: Div Paragraph 9
+[INFO ] 2022-04-26 10:24:37,652 util.Log:10 - Scroll to Div Paragraph 9
+[INFO ] 2022-04-26 10:24:37,693 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:38,252 util.Log:10 - Wait for visible and located: Div Paragraph 10
+[INFO ] 2022-04-26 10:24:38,284 util.Log:10 - Scroll to Div Paragraph 10
+[INFO ] 2022-04-26 10:24:38,324 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:38,885 util.Log:10 - Wait for visible and located: Div Paragraph 11
+[INFO ] 2022-04-26 10:24:38,936 util.Log:10 - Scroll to Div Paragraph 11
+[INFO ] 2022-04-26 10:24:38,965 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:39,493 util.Log:10 - Wait for visible and located: Div Paragraph 12
+[INFO ] 2022-04-26 10:24:39,524 util.Log:10 - Scroll to Div Paragraph 12
+[INFO ] 2022-04-26 10:24:39,564 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:40,083 util.Log:10 - Wait for visible and located: Div Paragraph 13
+[INFO ] 2022-04-26 10:24:40,114 util.Log:10 - Scroll to Div Paragraph 13
+[INFO ] 2022-04-26 10:24:40,151 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:40,690 util.Log:10 - Wait for visible and located: Div Paragraph 14
+[INFO ] 2022-04-26 10:24:40,721 util.Log:10 - Scroll to Div Paragraph 14
+[INFO ] 2022-04-26 10:24:40,745 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:41,321 util.Log:10 - Wait for visible and located: Div Paragraph 15
+[INFO ] 2022-04-26 10:24:41,352 util.Log:10 - Scroll to Div Paragraph 15
+[INFO ] 2022-04-26 10:24:41,386 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:41,909 util.Log:10 - Wait for visible and located: Div Paragraph 16
+[INFO ] 2022-04-26 10:24:41,942 util.Log:10 - Scroll to Div Paragraph 16
+[INFO ] 2022-04-26 10:24:41,970 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:42,498 util.Log:10 - Wait for visible and located: Div Paragraph 17
+[INFO ] 2022-04-26 10:24:42,530 util.Log:10 - Scroll to Div Paragraph 17
+[INFO ] 2022-04-26 10:24:42,570 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:43,112 util.Log:10 - Wait for visible and located: Div Paragraph 18
+[INFO ] 2022-04-26 10:24:43,128 util.Log:10 - Scroll to Div Paragraph 18
+[INFO ] 2022-04-26 10:24:43,180 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:43,721 util.Log:10 - Wait for visible and located: Div Paragraph 19
+[INFO ] 2022-04-26 10:24:43,767 util.Log:10 - Scroll to Div Paragraph 19
+[INFO ] 2022-04-26 10:24:43,802 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:44,343 util.Log:10 - Wait for visible and located: Div Paragraph 20
+[INFO ] 2022-04-26 10:24:44,358 util.Log:10 - Scroll to Div Paragraph 20
+[INFO ] 2022-04-26 10:24:44,396 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:44,961 util.Log:10 - Wait for visible and located: Div Paragraph 21
+[INFO ] 2022-04-26 10:24:44,993 util.Log:10 - Scroll to Div Paragraph 21
+[INFO ] 2022-04-26 10:24:45,043 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:45,581 util.Log:10 - Wait for visible and located: Div Paragraph 22
+[INFO ] 2022-04-26 10:24:45,623 util.Log:10 - Scroll to Div Paragraph 22
+[INFO ] 2022-04-26 10:24:45,651 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:46,221 util.Log:10 - Wait for visible and located: Div Paragraph 23
+[INFO ] 2022-04-26 10:24:46,274 util.Log:10 - Scroll to Div Paragraph 23
+[INFO ] 2022-04-26 10:24:46,327 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:46,877 util.Log:10 - Wait for visible and located: Div Paragraph 24
+[INFO ] 2022-04-26 10:24:46,893 util.Log:10 - Scroll to Div Paragraph 24
+[INFO ] 2022-04-26 10:24:46,934 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:47,493 util.Log:10 - Wait for visible and located: Div Paragraph 25
+[INFO ] 2022-04-26 10:24:47,524 util.Log:10 - Scroll to Div Paragraph 25
+[INFO ] 2022-04-26 10:24:47,551 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:48,105 util.Log:10 - Wait for visible and located: Div Paragraph 26
+[INFO ] 2022-04-26 10:24:48,136 util.Log:10 - Scroll to Div Paragraph 26
+[INFO ] 2022-04-26 10:24:48,207 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:48,758 util.Log:10 - Wait for visible and located: Div Paragraph 27
+[INFO ] 2022-04-26 10:24:48,789 util.Log:10 - Scroll to Div Paragraph 27
+[INFO ] 2022-04-26 10:24:48,808 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:49,358 util.Log:10 - Wait for visible and located: Div Paragraph 28
+[INFO ] 2022-04-26 10:24:49,389 util.Log:10 - Scroll to Div Paragraph 28
+[INFO ] 2022-04-26 10:24:49,421 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:49,974 util.Log:10 - Wait for visible and located: Div Paragraph 29
+[INFO ] 2022-04-26 10:24:50,037 util.Log:10 - Scroll to Div Paragraph 29
+[INFO ] 2022-04-26 10:24:50,097 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:50,630 util.Log:10 - Wait for visible and located: Div Paragraph 30
+[INFO ] 2022-04-26 10:24:50,677 util.Log:10 - Scroll to Div Paragraph 30
+[INFO ] 2022-04-26 10:24:50,712 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:51,242 util.Log:10 - Wait for visible and located: Div Paragraph 31
+[INFO ] 2022-04-26 10:24:51,274 util.Log:10 - Scroll to Div Paragraph 31
+[INFO ] 2022-04-26 10:24:51,311 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:51,846 util.Log:10 - Wait for visible and located: Div Paragraph 32
+[INFO ] 2022-04-26 10:24:51,877 util.Log:10 - Scroll to Div Paragraph 32
+[INFO ] 2022-04-26 10:24:51,920 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:52,445 util.Log:10 - Wait for visible and located: Div Paragraph 33
+[INFO ] 2022-04-26 10:24:52,461 util.Log:10 - Scroll to Div Paragraph 33
+[INFO ] 2022-04-26 10:24:52,502 util.Log:10 - Wait for element invisible: small element of loading 
+[INFO ] 2022-04-26 10:24:53,043 util.Log:10 - Wait for visible and located: Div Paragraph 34
+[INFO ] 2022-04-26 10:24:53,074 util.Log:10 - Scroll to Div Paragraph 34
+[INFO ] 2022-04-26 10:24:53,105 util.Log:10 - Check if Div ageExpected Paragraph is displayed
+[INFO ] 2022-04-26 10:24:53,872 util.Log:10 - Opening Upload page
+[INFO ] 2022-04-26 10:24:53,872 util.Log:10 - Wait for presence and located: Img logo
+[INFO ] 2022-04-26 10:24:53,890 util.Log:10 - Check if Upload page is open
+[INFO ] 2022-04-26 10:24:53,916 util.Log:10 - Wait for presence and located: Input of choose file
+[INFO ] 2022-04-26 10:24:53,957 util.Log:10 - Click on: Input of upload file
+[INFO ] 2022-04-26 10:24:54,263 util.Log:10 - Wait for presence and located: H3 of refresh page
+[INFO ] 2022-04-26 10:24:54,277 util.Log:10 - Check if H3 of refresh page is displayed
+[INFO ] 2022-04-26 10:24:54,296 util.Log:10 - Get attribute: innerHTML from H3 of refresh page
+[INFO ] 2022-04-26 10:24:54,329 util.Log:10 - Get text from: Div of file name
+[INFO ] 2022-04-26 10:24:54,369 util.Log:10 - Cut file name from filePath

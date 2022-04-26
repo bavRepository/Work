@@ -1,0 +1,4 @@
+language=ru
+browser=chrome
+ExplicitWait=15
+baseUrl=https://the-internet.herokuapp.com

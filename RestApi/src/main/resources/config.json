@@ -1,0 +1,12 @@
+{
+  "startUrl": "https://jsonplaceholder.typicode.com",
+  "case1FilePath": "src\\main\\resources\\testCasesJsonFiles\\case1.json",
+  "case2FilePath": "src\\main\\resources\\testCasesJsonFiles\\case2.json",
+  "case3FilePath": "src\\main\\resources\\testCasesJsonFiles\\case3.json",
+  "case4FilePath": "src\\main\\resources\\testCasesJsonFiles\\case4.json",
+  "case5FilePath": "src\\main\\resources\\testCasesJsonFiles\\case5.json",
+  "case6FilePath": "src\\main\\resources\\testCasesJsonFiles\\case6.json",
+  "posts": "/posts",
+  "users": "/users",
+  "routeParam": "id"
+}

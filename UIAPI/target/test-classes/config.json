@@ -1,0 +1,11 @@
+{
+  "seleniumStartUrl": "http://localhost:8080/web/",
+  "unirestStartUrl": "http://localhost:8080/api/",
+  "postGetToken": "token/get",
+  "postGetTests": "test/get/json",
+  "postPutTest": "test/put",
+  "postPutLogInTest": "test/put/log",
+  "postPutImageInTest": "test/put/attachment",
+  "logFileRelativePath": "target\\log\\log.log",
+  "dateMask": "y/MM/dd HH:mm:ss"
+}

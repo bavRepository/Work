@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<test name="Verify that data is added updated and deleted">
+    <classes>
+        <class name="tests.TableTestAdd">
+            <methods>
+                <include name="addDataPassed"/>
+                <include name="addDataFail"/>
+            </methods>
+        </class>
+        <class name="tests.TableTestCopyUpdateDelete">
+            <methods>
+                <include name="copyUpdateDelete"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
+
+

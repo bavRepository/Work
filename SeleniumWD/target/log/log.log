@@ -1,0 +1,126 @@
+2022-04-20 12:39:27 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, download.prompt_for_download=false, profile.default_content_settings.popups=0, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2022-04-20 12:39:27 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2022-04-20 12:39:29 DEBUG - Set '60' timeout in seconds for loading of pages
+2022-04-20 12:39:29 DEBUG - Set async javascript execution timeout '10' in seconds
+2022-04-20 12:39:29 INFO  - Browser 'CHROME' ready...
+2022-04-20 12:39:29 INFO  - Maximizing browser window
+2022-04-20 12:39:29 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-20 12:39:31 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:31 INFO  - Link 'next page' :: Clicking
+2022-04-20 12:39:32 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:32 INFO  - Label 'authorization form' :: Waiting for element to be displayed
+2022-04-20 12:39:32 INFO  - Text Field 'password' :: Clearing
+2022-04-20 12:39:32 INFO  - Text Field 'password' :: Typing 'ZXGIxfonЫ2'
+2022-04-20 12:39:32 INFO  - Text Field 'email' :: Clearing
+2022-04-20 12:39:32 INFO  - Text Field 'email' :: Typing 'ZUZBlwcnЯ3Z'
+2022-04-20 12:39:32 INFO  - CheckBox 'terms & conditions' :: Clicking
+2022-04-20 12:39:33 INFO  - Text Field 'domain' :: Clearing
+2022-04-20 12:39:33 INFO  - Text Field 'domain' :: Typing 'GaИ9'
+2022-04-20 12:39:33 INFO  - Button 'Drop list' :: Clicking
+2022-04-20 12:39:33 INFO  - Get elements from drop list
+2022-04-20 12:39:33 INFO  - Button 'element 2' :: Clicking
+2022-04-20 12:39:34 INFO  - Button 'next' :: Clicking
+2022-04-20 12:39:34 INFO  - Label 'upLoadFile form' :: Waiting for element to be displayed
+2022-04-20 12:39:34 INFO  - Text Field 'avatar and interests' :: Scrolling via JavaScript
+2022-04-20 12:39:34 INFO  - CheckBox 'unselect all' :: Clicking
+2022-04-20 12:39:35 INFO  - Select 3 elements
+2022-04-20 12:39:35 INFO  - CheckBox 'element 5' :: Getting state
+2022-04-20 12:39:35 INFO  - CheckBox 'element 5' :: State: [false]
+2022-04-20 12:39:35 INFO  - CheckBox 'element 5' :: Clicking
+2022-04-20 12:39:35 INFO  - CheckBox 'element 11' :: Getting state
+2022-04-20 12:39:35 INFO  - CheckBox 'element 11' :: State: [false]
+2022-04-20 12:39:35 INFO  - CheckBox 'element 11' :: Clicking
+2022-04-20 12:39:35 INFO  - CheckBox 'element 17' :: Getting state
+2022-04-20 12:39:35 INFO  - CheckBox 'element 17' :: State: [false]
+2022-04-20 12:39:35 INFO  - CheckBox 'element 17' :: Clicking
+2022-04-20 12:39:35 INFO  - Button 'upload file' :: Clicking
+2022-04-20 12:39:35 INFO  - Get parameter uploadImage value
+2022-04-20 12:39:35 INFO  - Get absolute path to src\main\resources\apple.png
+2022-04-20 12:39:36 INFO  - Text Field 'image' :: Waiting for element to be displayed
+2022-04-20 12:39:36 INFO  - Button 'next' :: Clicking
+2022-04-20 12:39:37 INFO  - Label 'authorization form' :: Waiting for element to be displayed
+2022-04-20 12:39:37 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-20 12:39:37 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:37 INFO  - Link 'next page' :: Clicking
+2022-04-20 12:39:37 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:37 INFO  - Button 'send to bottom' :: Clicking
+2022-04-20 12:39:37 INFO  - Text Field 'help form' :: Waiting for element to be invisible or absent
+2022-04-20 12:39:37 DEBUG - No elements with locator 'By.xpath: //div[@class='help-form']' were found in DISPLAYED state
+2022-04-20 12:39:37 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-20 12:39:37 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:37 INFO  - Link 'next page' :: Clicking
+2022-04-20 12:39:38 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:38 INFO  - Button 'accept coockies' :: Clicking
+2022-04-20 12:39:40 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-20 12:39:40 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:40 INFO  - Link 'next page' :: Clicking
+2022-04-20 12:39:40 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-20 12:39:40 INFO  - Text Field 'timer' :: Getting text from element
+2022-04-20 12:39:40 INFO  - Text Field 'timer' :: Element's text: [00:00:00]
+2022-04-20 12:39:40 INFO  - Get parameter startTimer value
+2022-04-20 12:39:40 INFO  - Closing browser
+2022-04-26 09:31:41 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, download.prompt_for_download=false, profile.default_content_settings.popups=0, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2022-04-26 09:31:41 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2022-04-26 09:31:45 DEBUG - Set '60' timeout in seconds for loading of pages
+2022-04-26 09:31:45 DEBUG - Set async javascript execution timeout '10' in seconds
+2022-04-26 09:31:45 INFO  - Browser 'CHROME' ready...
+2022-04-26 09:31:45 INFO  - Maximizing browser window
+2022-04-26 09:31:45 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-26 09:31:47 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:47 INFO  - Link 'next page' :: Clicking
+2022-04-26 09:31:48 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:48 INFO  - Label 'authorization form' :: Waiting for element to be displayed
+2022-04-26 09:31:48 INFO  - Text Field 'password' :: Clearing
+2022-04-26 09:31:48 INFO  - Text Field 'password' :: Typing 'MPNLlonqК7'
+2022-04-26 09:31:48 INFO  - Text Field 'email' :: Clearing
+2022-04-26 09:31:48 INFO  - Text Field 'email' :: Typing 'AKNZecfvИ4A'
+2022-04-26 09:31:48 INFO  - CheckBox 'terms & conditions' :: Clicking
+2022-04-26 09:31:48 INFO  - Text Field 'domain' :: Clearing
+2022-04-26 09:31:48 INFO  - Text Field 'domain' :: Typing 'HtО9'
+2022-04-26 09:31:48 INFO  - Button 'Drop list' :: Clicking
+2022-04-26 09:31:49 INFO  - Get elements from drop list
+2022-04-26 09:31:49 INFO  - Button 'element 8' :: Clicking
+2022-04-26 09:31:49 INFO  - Button 'next' :: Clicking
+2022-04-26 09:31:49 INFO  - Label 'upLoadFile form' :: Waiting for element to be displayed
+2022-04-26 09:31:49 INFO  - Text Field 'avatar and interests' :: Scrolling via JavaScript
+2022-04-26 09:31:49 INFO  - CheckBox 'unselect all' :: Clicking
+2022-04-26 09:31:50 INFO  - Select 3 elements
+2022-04-26 09:31:50 INFO  - CheckBox 'element 12' :: Getting state
+2022-04-26 09:31:50 INFO  - CheckBox 'element 12' :: State: [false]
+2022-04-26 09:31:50 INFO  - CheckBox 'element 12' :: Clicking
+2022-04-26 09:31:50 INFO  - CheckBox 'element 4' :: Getting state
+2022-04-26 09:31:50 INFO  - CheckBox 'element 4' :: State: [false]
+2022-04-26 09:31:50 INFO  - CheckBox 'element 4' :: Clicking
+2022-04-26 09:31:50 INFO  - CheckBox 'element 16' :: Getting state
+2022-04-26 09:31:50 INFO  - CheckBox 'element 16' :: State: [false]
+2022-04-26 09:31:50 INFO  - CheckBox 'element 16' :: Clicking
+2022-04-26 09:31:51 INFO  - Button 'upload file' :: Clicking
+2022-04-26 09:31:51 INFO  - Get parameter uploadImage value
+2022-04-26 09:31:51 INFO  - Get absolute path to src\main\resources\apple.png
+2022-04-26 09:31:54 INFO  - Text Field 'image' :: Waiting for element to be displayed
+2022-04-26 09:31:54 INFO  - Button 'next' :: Clicking
+2022-04-26 09:31:55 INFO  - Label 'authorization form' :: Waiting for element to be displayed
+2022-04-26 09:31:55 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-26 09:31:55 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:55 INFO  - Link 'next page' :: Clicking
+2022-04-26 09:31:55 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:55 INFO  - Button 'send to bottom' :: Clicking
+2022-04-26 09:31:55 INFO  - Text Field 'help form' :: Waiting for element to be invisible or absent
+2022-04-26 09:31:55 DEBUG - No elements with locator 'By.xpath: //div[@class='help-form']' were found in DISPLAYED state
+2022-04-26 09:31:55 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-26 09:31:55 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:55 INFO  - Link 'next page' :: Clicking
+2022-04-26 09:31:55 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:55 INFO  - Button 'accept coockies' :: Clicking
+2022-04-26 09:31:58 INFO  - Navigate to url - 'https://userinyerface.com/game.html%20target='
+2022-04-26 09:31:58 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:58 INFO  - Link 'next page' :: Clicking
+2022-04-26 09:31:58 INFO  - Label 'user inyerface logo' :: Waiting for element to be displayed
+2022-04-26 09:31:58 INFO  - Text Field 'timer' :: Getting text from element
+2022-04-26 09:31:58 INFO  - Text Field 'timer' :: Element's text: [00:00:00]
+2022-04-26 09:31:58 INFO  - Get parameter startTimer value
+2022-04-26 09:31:58 INFO  - Closing browser

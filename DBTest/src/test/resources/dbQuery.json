@@ -1,0 +1,14 @@
+{
+    "addAuthor": "INSERT INTO author(name, login, email) VALUES (?, ?, ?);",
+    "getAuthor": "SELECT * FROM author WHERE login = ?;",
+    "addProject": "INSERT INTO project(name) VALUES (?);",
+    "getProject": "SELECT * FROM project WHERE name = ?;",
+    "getSession": "SELECT * FROM session WHERE id = ?;",
+    "getStatus": "SELECT * FROM status WHERE id = ?;",
+    "addTest": "INSERT INTO test(name, status_id, method_name, project_id, session_id, start_time, end_time, env, browser, author_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
+    "getTests": "SELECT * FROM test WHERE id LIKE '%%%s%%%%%s%%' LIMIT %s;",
+    "updateTest": "UPDATE test SET status_id = ?, start_time = ?, end_time = ?, env = ?, browser = ? WHERE id = ?;",
+    "deleteTest": "DELETE FROM test WHERE id = ?;",
+    "getTestsIdRange": "SELECT * FROM test WHERE id > (SELECT MAX(id) FROM test) - ?"
+}
+	   

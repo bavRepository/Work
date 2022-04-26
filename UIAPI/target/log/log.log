@@ -1,0 +1,255 @@
+2022-04-20 12:07:58 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, download.prompt_for_download=false, profile.default_content_settings.popups=0, intl.accept_languages=ru, ru_RU, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2022-04-20 12:07:58 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2022-04-20 12:08:03 DEBUG - Set '60' timeout in seconds for loading of pages
+2022-04-20 12:08:03 DEBUG - Set async javascript execution timeout '10' in seconds
+2022-04-20 12:08:03 INFO  - Browser 'CHROME' ready...
+2022-04-20 12:08:03 INFO  - Maximizing browser window
+2022-04-20 12:08:03 DEBUG - CookieSpec selected: default
+2022-04-20 12:08:03 DEBUG - Auth cache not set in the context
+2022-04-20 12:08:03 DEBUG - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 20; total allocated: 0 of 200]
+2022-04-20 12:08:03 DEBUG - Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-20 12:08:03 DEBUG - Opening connection {}->http://localhost:8080
+2022-04-20 12:08:03 DEBUG - Connecting to localhost/127.0.0.1:8080
+2022-04-20 12:08:03 DEBUG - Connection established 127.0.0.1:50561<->127.0.0.1:8080
+2022-04-20 12:08:03 DEBUG - http-outgoing-0: set socket timeout to 60000
+2022-04-20 12:08:03 DEBUG - Executing request POST /api/token/get?variant=2 HTTP/1.1
+2022-04-20 12:08:03 DEBUG - Target auth state: UNCHALLENGED
+2022-04-20 12:08:03 DEBUG - Proxy auth state: UNCHALLENGED
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> POST /api/token/get?variant=2 HTTP/1.1
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> user-agent: unirest-java/3.1.00
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> accept-encoding: gzip
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> Content-Length: 0
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> Host: localhost:8080
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> "POST /api/token/get?variant=2 HTTP/1.1[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> "user-agent: unirest-java/3.1.00[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 >> "[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "HTTP/1.1 403 Forbidden[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "Content-Length: 556[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "Server: Jetty(9.4.43.v20210629)[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "[\r][\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<html>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<head>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<title>Error 403 No valid crumb was included in the request</title>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "</head>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<body><h2>HTTP ERROR 403 No valid crumb was included in the request</h2>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<table>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<tr><th>URI:</th><td>/api/token/get</td></tr>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<tr><th>STATUS:</th><td>403</td></tr>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<tr><th>MESSAGE:</th><td>No valid crumb was included in the request</td></tr>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<tr><th>SERVLET:</th><td>Stapler</td></tr>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "</table>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "<hr><a href="https://eclipse.org/jetty">Powered by Jetty:// 9.4.43.v20210629</a><hr/>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "</body>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << "</html>[\n]"
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << HTTP/1.1 403 Forbidden
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << X-Content-Type-Options: nosniff
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << Cache-Control: must-revalidate,no-cache,no-store
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << Content-Type: text/html;charset=iso-8859-1
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << Content-Length: 556
+2022-04-20 12:08:03 DEBUG - http-outgoing-0 << Server: Jetty(9.4.43.v20210629)
+2022-04-20 12:08:03 DEBUG - Connection can be kept alive indefinitely
+2022-04-20 12:08:03 DEBUG - Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+2022-04-20 12:08:03 DEBUG - http-outgoing-0: set socket timeout to 0
+2022-04-20 12:08:03 DEBUG - Connection released: [id: 0][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-20 12:08:03 DEBUG - Cancelling request execution
+2022-04-20 12:08:03 INFO  - Navigate to url - 'http://:@localhost:8080/web/'
+2022-04-20 12:08:04 INFO  - Label 'footer' :: Waiting for element to be displayed
+2022-04-26 10:26:05 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, download.prompt_for_download=false, profile.default_content_settings.popups=0, intl.accept_languages=ru, ru_RU, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2022-04-26 10:26:05 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2022-04-26 10:26:07 DEBUG - Set '60' timeout in seconds for loading of pages
+2022-04-26 10:26:07 DEBUG - Set async javascript execution timeout '10' in seconds
+2022-04-26 10:26:07 INFO  - Browser 'CHROME' ready...
+2022-04-26 10:26:07 INFO  - Maximizing browser window
+2022-04-26 10:26:10 DEBUG - CookieSpec selected: default
+2022-04-26 10:26:10 DEBUG - Auth cache not set in the context
+2022-04-26 10:26:10 DEBUG - Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 20; total allocated: 0 of 200]
+2022-04-26 10:26:10 DEBUG - Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-26 10:26:10 DEBUG - Opening connection {}->http://localhost:8080
+2022-04-26 10:26:10 DEBUG - Connecting to localhost/127.0.0.1:8080
+2022-04-26 10:26:10 DEBUG - Connection established 127.0.0.1:61339<->127.0.0.1:8080
+2022-04-26 10:26:10 DEBUG - http-outgoing-0: set socket timeout to 60000
+2022-04-26 10:26:10 DEBUG - Executing request POST /api/token/get?variant=2 HTTP/1.1
+2022-04-26 10:26:10 DEBUG - Target auth state: UNCHALLENGED
+2022-04-26 10:26:11 DEBUG - Proxy auth state: UNCHALLENGED
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> POST /api/token/get?variant=2 HTTP/1.1
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> user-agent: unirest-java/3.1.00
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> accept-encoding: gzip
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> Content-Length: 0
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> Host: localhost:8080
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> Connection: Keep-Alive
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> "POST /api/token/get?variant=2 HTTP/1.1[\r][\n]"
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> "user-agent: unirest-java/3.1.00[\r][\n]"
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2022-04-26 10:26:11 DEBUG - http-outgoing-0 >> "[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "HTTP/1.1 403 Forbidden[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "Content-Length: 556[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "Server: Jetty(9.4.43.v20210629)[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "[\r][\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<html>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<head>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<title>Error 403 No valid crumb was included in the request</title>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "</head>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<body><h2>HTTP ERROR 403 No valid crumb was included in the request</h2>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<table>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<tr><th>URI:</th><td>/api/token/get</td></tr>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<tr><th>STATUS:</th><td>403</td></tr>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<tr><th>MESSAGE:</th><td>No valid crumb was included in the request</td></tr>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<tr><th>SERVLET:</th><td>Stapler</td></tr>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "</table>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "<hr><a href="https://eclipse.org/jetty">Powered by Jetty:// 9.4.43.v20210629</a><hr/>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "</body>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << "</html>[\n]"
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << HTTP/1.1 403 Forbidden
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << X-Content-Type-Options: nosniff
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << Cache-Control: must-revalidate,no-cache,no-store
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << Content-Type: text/html;charset=iso-8859-1
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << Content-Length: 556
+2022-04-26 10:26:13 DEBUG - http-outgoing-0 << Server: Jetty(9.4.43.v20210629)
+2022-04-26 10:26:13 DEBUG - Connection can be kept alive indefinitely
+2022-04-26 10:26:13 DEBUG - Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+2022-04-26 10:26:13 DEBUG - http-outgoing-0: set socket timeout to 0
+2022-04-26 10:26:13 DEBUG - Connection released: [id: 0][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-26 10:26:13 DEBUG - Cancelling request execution
+2022-04-26 10:26:13 INFO  - Navigate to url - 'http://:@localhost:8080/web/'
+2022-04-26 10:26:15 INFO  - Label 'footer' :: Waiting for element to be displayed
+2022-04-26 10:26:21 DEBUG - CookieSpec selected: default
+2022-04-26 10:26:21 DEBUG - Auth cache not set in the context
+2022-04-26 10:26:21 DEBUG - Connection request: [route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-26 10:26:21 DEBUG - http-outgoing-0 << "end of stream"
+2022-04-26 10:26:21 DEBUG - http-outgoing-0: Close connection
+2022-04-26 10:26:21 DEBUG - Connection leased: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-26 10:26:21 DEBUG - Opening connection {}->http://localhost:8080
+2022-04-26 10:26:21 DEBUG - Connecting to localhost/127.0.0.1:8080
+2022-04-26 10:26:21 DEBUG - Connection established 127.0.0.1:61353<->127.0.0.1:8080
+2022-04-26 10:26:21 DEBUG - http-outgoing-1: set socket timeout to 60000
+2022-04-26 10:26:21 DEBUG - Executing request POST /api/test/put?browser=chrome&methodName=testUIAPI&startTime=2022%2F04%2F26+10%3A26%3A04&projectName=UIAPI&env=Anton&SID=Tue+Apr+26+10%3A26%3A07+MSK+2022&testName=API+requests+checking HTTP/1.1
+2022-04-26 10:26:21 DEBUG - Target auth state: UNCHALLENGED
+2022-04-26 10:26:21 DEBUG - Proxy auth state: UNCHALLENGED
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> POST /api/test/put?browser=chrome&methodName=testUIAPI&startTime=2022%2F04%2F26+10%3A26%3A04&projectName=UIAPI&env=Anton&SID=Tue+Apr+26+10%3A26%3A07+MSK+2022&testName=API+requests+checking HTTP/1.1
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> user-agent: unirest-java/3.1.00
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> accept-encoding: gzip
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> Content-Length: 0
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> Host: localhost:8080
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> Connection: Keep-Alive
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "POST /api/test/put?browser=chrome&methodName=testUIAPI&startTime=2022%2F04%2F26+10%3A26%3A04&projectName=UIAPI&env=Anton&SID=Tue+Apr+26+10%3A26%3A07+MSK+2022&testName=API+requests+checking HTTP/1.1[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "user-agent: unirest-java/3.1.00[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "accept-encoding: gzip[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "Content-Length: 0[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "Host: localhost:8080[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "HTTP/1.1 403 Forbidden[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Content-Length: 555[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Server: Jetty(9.4.43.v20210629)[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<html>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<head>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<title>Error 403 No valid crumb was included in the request</title>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</head>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<body><h2>HTTP ERROR 403 No valid crumb was included in the request</h2>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<table>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>URI:</th><td>/api/test/put</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>STATUS:</th><td>403</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>MESSAGE:</th><td>No valid crumb was included in the request</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>SERVLET:</th><td>Stapler</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</table>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<hr><a href="https://eclipse.org/jetty">Powered by Jetty:// 9.4.43.v20210629</a><hr/>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</body>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</html>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << HTTP/1.1 403 Forbidden
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << X-Content-Type-Options: nosniff
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Cache-Control: must-revalidate,no-cache,no-store
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Content-Type: text/html;charset=iso-8859-1
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Content-Length: 555
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Server: Jetty(9.4.43.v20210629)
+2022-04-26 10:26:21 DEBUG - Connection can be kept alive indefinitely
+2022-04-26 10:26:21 DEBUG - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
+2022-04-26 10:26:21 DEBUG - http-outgoing-1: set socket timeout to 0
+2022-04-26 10:26:21 DEBUG - Connection released: [id: 1][route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-26 10:26:21 DEBUG - Cancelling request execution
+2022-04-26 10:26:21 DEBUG - CookieSpec selected: default
+2022-04-26 10:26:21 DEBUG - Auth cache not set in the context
+2022-04-26 10:26:21 DEBUG - Connection request: [route: {}->http://localhost:8080][total available: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-26 10:26:21 DEBUG - Connection leased: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 20; total allocated: 1 of 200]
+2022-04-26 10:26:21 DEBUG - http-outgoing-1: set socket timeout to 0
+2022-04-26 10:26:21 DEBUG - http-outgoing-1: set socket timeout to 60000
+2022-04-26 10:26:21 DEBUG - Executing request POST /api/test/put/log HTTP/1.1
+2022-04-26 10:26:21 DEBUG - Target auth state: UNCHALLENGED
+2022-04-26 10:26:21 DEBUG - Proxy auth state: UNCHALLENGED
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> POST /api/test/put/log HTTP/1.1
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> user-agent: unirest-java/3.1.00
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> accept-encoding: gzip
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> Content-Length: 22786
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> Host: localhost:8080
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> Connection: Keep-Alive
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "POST /api/test/put/log HTTP/1.1[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "user-agent: unirest-java/3.1.00[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "accept-encoding: gzip[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "Content-Length: 22786[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "Host: localhost:8080[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 >> "content=2022-04-20+12%3A07%3A58+DEBUG+-+Got+browser+profile+options+from+settings+file%3A+null%7Bdisable-popup-blocking%3Dtrue%2C+download.prompt_for_download%3Dfalse%2C+profile.default_content_settings.popups%3D0%2C+intl.accept_languages%3Dru%2C+ru_RU%2C+safebrowsing.enabled%3Dtrue%2C+download.default_directory%3D%2F%2Fhome%2F%2Fselenium%2F%2Fdownloads%7Dnull2022-04-20+12%3A07%3A58+DEBUG+-+Got+browser+capabilities+from+settings+file%3A+null%7BenableVNC%3Dtrue%7Dnull2022-04-20+12%3A08%3A03+DEBUG+-+Set+%2760%27+timeout+in+seconds+for+loading+of+pagesnull2022-04-20+12%3A08%3A03+DEBUG+-+Set+async+javascript+execution+timeout+%2710%27+in+secondsnull2022-04-20+12%3A08%3A03+INFO++-+Browser+%27CHROME%27+ready...null2022-04-20+12%3A08%3A03+INFO++-+Maximizing+browser+windownull2022-04-20+12%3A08%3A03+DEBUG+-+CookieSpec+selected%3A+defaultnull2022-04-20+12%3A08%3A03+DEBUG+-+Auth+cache+not+set+in+the+contextnull2022-04-20+12%3A08%3A03+DEBUG+-+Connection+request%3A+%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+0%3B+route+allocated%3A+0+of+20%3B+total+allocated%3A+0+of+200%5Dnull2022-04-20+12%3A08%3A03+DEBUG+-+Connection+leased%3A+%5Bid%3A+0%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+0%3B+route+allocated%3A+1+of+20%3B+total+allocated%3A+1+of+200%5Dnull2022-04-20+12%3A08%3A03+DEBUG+-+Opening+connection+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080null2022-04-20+12%3A08%3A03+DEBUG+-+Connecting+to+localhost%2F127.0.0.1%3A8080null2022-04-20+12%3A08%3A03+DEBUG+-+Connection+established+127.0.0.1%3A50561%3C-%3E127.0.0.1%3A8080null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0%3A+set+socket+timeout+to+60000null2022-04-20+12%3A08%3A03+DEBUG+-+Executing+request+POST+%2Fapi%2Ftoken%2Fget%3Fvariant%3D2+HTTP%2F1.1null2022-04-20+12%3A08%3A03+DEBUG+-+Target+auth+state%3A+UNCHALLENGEDnull2022-04-20+12%3A08%3A03+DEBUG+-+Proxy+auth+state%3A+UNCHALLENGEDnull2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+POST+%2Fapi%2Ftoken%2Fget%3Fvariant%3D2+HTTP%2F1.1null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+user-agent%3A+unirest-java%2F3.1.00null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+accept-encoding%3A+gzipnull2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+Content-Length%3A+0null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+Host%3A+localhost%3A8080null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+Connection%3A+Keep-Alivenull2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+%22POST+%2Fapi%2Ftoken%2Fget%3Fvariant%3D2+HTTP%2F1.1%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+%22user-agent%3A+unirest-java%2F3.1.00%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+%22accept-encoding%3A+gzip%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+%22Content-Length%3A+0%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+%22Host%3A+localhost%3A8080%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+%22Connection%3A+Keep-Alive%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3E%3E+%22%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22HTTP%2F1.1+403+Forbidden%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22X-Content-Type-Options%3A+nosniff%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22Cache-Control%3A+must-revalidate%2Cno-cache%2Cno-store%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22Content-Type%3A+text%2Fhtml%3Bcharset%3Diso-8859-1%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22Content-Length%3A+556%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22Server%3A+Jetty%289.4.43.v20210629%29%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Chtml%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Chead%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Cmeta+http-equiv%3D%22Content-Type%22+content%3D%22text%2Fhtml%3Bcharset%3Dutf-8%22%2F%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctitle%3EError+403+No+valid+crumb+was+included+in+the+request%3C%2Ftitle%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Fhead%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Cbody%3E%3Ch2%3EHTTP+ERROR+403+No+valid+crumb+was+included+in+the+request%3C%2Fh2%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctable%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3EURI%3A%3C%2Fth%3E%3Ctd%3E%2Fapi%2Ftoken%2Fget%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3ESTATUS%3A%3C%2Fth%3E%3Ctd%3E403%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3EMESSAGE%3A%3C%2Fth%3E%3Ctd%3ENo+valid+crumb+was+included+in+the+request%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3ESERVLET%3A%3C%2Fth%3E%3Ctd%3EStapler%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Ftable%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Chr%3E%3Ca+href%3D%22https%3A%2F%2Feclipse.org%2Fjetty%22%3EPowered+by+Jetty%3A%2F%2F+9.4.43.v20210629%3C%2Fa%3E%3Chr%2F%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Fbody%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Fhtml%3E%5B%5Cn%5D%22null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+HTTP%2F1.1+403+Forbiddennull2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+X-Content-Type-Options%3A+nosniffnull2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+Cache-Control%3A+must-revalidate%2Cno-cache%2Cno-storenull2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+Content-Type%3A+text%2Fhtml%3Bcharset%3Diso-8859-1null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+Content-Length%3A+556null2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0+%3C%3C+Server%3A+Jetty%289.4.43.v20210629%29null2022-04-20+12%3A08%3A03+DEBUG+-+Connection+can+be+kept+alive+indefinitelynull2022-04-20+12%3A08%3A03+DEBUG+-+Connection+%5Bid%3A+0%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D+can+be+kept+alive+indefinitelynull2022-04-20+12%3A08%3A03+DEBUG+-+http-outgoing-0%3A+set+socket+timeout+to+0null2022-04-20+12%3A08%3A03+DEBUG+-+Connection+released%3A+%5Bid%3A+0%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+1%3B+route+allocated%3A+1+of+20%3B+total+allocated%3A+1+of+200%5Dnull2022-04-20+12%3A08%3A03+DEBUG+-+Cancelling+request+executionnull2022-04-20+12%3A08%3A03+INFO++-+Navigate+to+url+-+%27http%3A%2F%2F%3A%40localhost%3A8080%2Fweb%2F%27null2022-04-20+12%3A08%3A04+INFO++-+Label+%27footer%27+%3A%3A+Waiting+for+element+to+be+displayednull2022-04-26+10%3A26%3A05+DEBUG+-+Got+browser+profile+options+from+settings+file%3A+null%7Bdisable-popup-blocking%3Dtrue%2C+download.prompt_for_download%3Dfalse%2C+profile.default_content_settings.popups%3D0%2C+intl.accept_languages%3Dru%2C+ru_RU%2C+safebrowsing.enabled%3Dtrue%2C+download.default_directory%3D%2F%2Fhome%2F%2Fselenium%2F%2Fdownloads%7Dnull2022-04-26+10%3A26%3A05+DEBUG+-+Got+browser+capabilities+from+settings+file%3A+null%7BenableVNC%3Dtrue%7Dnull2022-04-26+10%3A26%3A07+DEBUG+-+Set+%2760%27+timeout+in+seconds+for+loading+of+pagesnull2022-04-26+10%3A26%3A07+DEBUG+-+Set+async+javascript+execution+timeout+%2710%27+in+secondsnull2022-04-26+10%3A26%3A07+INFO++-+Browser+%27CHROME%27+ready...null2022-04-26+10%3A26%3A07+INFO++-+Maximizing+browser+windownull2022-04-26+10%3A26%3A10+DEBUG+-+CookieSpec+selected%3A+defaultnull2022-04-26+10%3A26%3A10+DEBUG+-+Auth+cache+not+set+in+the+contextnull2022-04-26+10%3A26%3A10+DEBUG+-+Connection+request%3A+%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+0%3B+route+allocated%3A+0+of+20%3B+total+allocated%3A+0+of+200%5Dnull2022-04-26+10%3A26%3A10+DEBUG+-+Connection+leased%3A+%5Bid%3A+0%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+0%3B+route+allocated%3A+1+of+20%3B+total+allocated%3A+1+of+200%5Dnull2022-04-26+10%3A26%3A10+DEBUG+-+Opening+connection+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080null2022-04-26+10%3A26%3A10+DEBUG+-+Connecting+to+localhost%2F127.0.0.1%3A8080null2022-04-26+10%3A26%3A10+DEBUG+-+Connection+established+127.0.0.1%3A61339%3C-%3E127.0.0.1%3A8080null2022-04-26+10%3A26%3A10+DEBUG+-+http-outgoing-0%3A+set+socket+timeout+to+60000null2022-04-26+10%3A26%3A10+DEBUG+-+Executing+request+POST+%2Fapi%2Ftoken%2Fget%3Fvariant%3D2+HTTP%2F1.1null2022-04-26+10%3A26%3A10+DEBUG+-+Target+auth+state%3A+UNCHALLENGEDnull2022-04-26+10%3A26%3A11+DEBUG+-+Proxy+auth+state%3A+UNCHALLENGEDnull2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+POST+%2Fapi%2Ftoken%2Fget%3Fvariant%3D2+HTTP%2F1.1null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+user-agent%3A+unirest-java%2F3.1.00null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+accept-encoding%3A+gzipnull2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+Content-Length%3A+0null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+Host%3A+localhost%3A8080null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+Connection%3A+Keep-Alivenull2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+%22POST+%2Fapi%2Ftoken%2Fget%3Fvariant%3D2+HTTP%2F1.1%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+%22user-agent%3A+unirest-java%2F3.1.00%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+%22accept-encoding%3A+gzip%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+%22Content-Length%3A+0%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+%22Host%3A+localhost%3A8080%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+%22Connection%3A+Keep-Alive%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A11+DEBUG+-+http-outgoing-0+%3E%3E+%22%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22HTTP%2F1.1+403+Forbidden%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22X-Content-Type-Options%3A+nosniff%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22Cache-Control%3A+must-revalidate%2Cno-cache%2Cno-store%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22Content-Type%3A+text%2Fhtml%3Bcharset%3Diso-8859-1%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22Content-Length%3A+556%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22Server%3A+Jetty%289.4.43.v20210629%29%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Chtml%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Chead%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Cmeta+http-equiv%3D%22Content-Type%22+content%3D%22text%2Fhtml%3Bcharset%3Dutf-8%22%2F%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctitle%3EError+403+No+valid+crumb+was+included+in+the+request%3C%2Ftitle%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Fhead%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Cbody%3E%3Ch2%3EHTTP+ERROR+403+No+valid+crumb+was+included+in+the+request%3C%2Fh2%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctable%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3EURI%3A%3C%2Fth%3E%3Ctd%3E%2Fapi%2Ftoken%2Fget%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3ESTATUS%3A%3C%2Fth%3E%3Ctd%3E403%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3EMESSAGE%3A%3C%2Fth%3E%3Ctd%3ENo+valid+crumb+was+included+in+the+request%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Ctr%3E%3Cth%3ESERVLET%3A%3C%2Fth%3E%3Ctd%3EStapler%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Ftable%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3Chr%3E%3Ca+href%3D%22https%3A%2F%2Feclipse.org%2Fjetty%22%3EPowered+by+Jetty%3A%2F%2F+9.4.43.v20210629%3C%2Fa%3E%3Chr%2F%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Fbody%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+%22%3C%2Fhtml%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+HTTP%2F1.1+403+Forbiddennull2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+X-Content-Type-Options%3A+nosniffnull2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+Cache-Control%3A+must-revalidate%2Cno-cache%2Cno-storenull2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+Content-Type%3A+text%2Fhtml%3Bcharset%3Diso-8859-1null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+Content-Length%3A+556null2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0+%3C%3C+Server%3A+Jetty%289.4.43.v20210629%29null2022-04-26+10%3A26%3A13+DEBUG+-+Connection+can+be+kept+alive+indefinitelynull2022-04-26+10%3A26%3A13+DEBUG+-+Connection+%5Bid%3A+0%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D+can+be+kept+alive+indefinitelynull2022-04-26+10%3A26%3A13+DEBUG+-+http-outgoing-0%3A+set+socket+timeout+to+0null2022-04-26+10%3A26%3A13+DEBUG+-+Connection+released%3A+%5Bid%3A+0%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+1%3B+route+allocated%3A+1+of+20%3B+total+allocated%3A+1+of+200%5Dnull2022-04-26+10%3A26%3A13+DEBUG+-+Cancelling+request+executionnull2022-04-26+10%3A26%3A13+INFO++-+Navigate+to+url+-+%27http%3A%2F%2F%3A%40localhost%3A8080%2Fweb%2F%27null2022-04-26+10%3A26%3A15+INFO++-+Label+%27footer%27+%3A%3A+Waiting+for+element+to+be+displayednull2022-04-26+10%3A26%3A21+DEBUG+-+CookieSpec+selected%3A+defaultnull2022-04-26+10%3A26%3A21+DEBUG+-+Auth+cache+not+set+in+the+contextnull2022-04-26+10%3A26%3A21+DEBUG+-+Connection+request%3A+%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+1%3B+route+allocated%3A+1+of+20%3B+total+allocated%3A+1+of+200%5Dnull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-0+%3C%3C+%22end+of+stream%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-0%3A+Close+connectionnull2022-04-26+10%3A26%3A21+DEBUG+-+Connection+leased%3A+%5Bid%3A+1%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+0%3B+route+allocated%3A+1+of+20%3B+total+allocated%3A+1+of+200%5Dnull2022-04-26+10%3A26%3A21+DEBUG+-+Opening+connection+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080null2022-04-26+10%3A26%3A21+DEBUG+-+Connecting+to+localhost%2F127.0.0.1%3A8080null2022-04-26+10%3A26%3A21+DEBUG+-+Connection+established+127.0.0.1%3A61353%3C-%3E127.0.0.1%3A8080null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1%3A+set+socket+timeout+to+60000null2022-04-26+10%3A26%3A21+DEBUG+-+Executing+request+POST+%2Fapi%2Ftest%2Fput%3Fbrowser%3Dchrome%26methodName%3DtestUIAPI%26startTime%3D2022%252F04%252F26%2B10%253A26%253A04%26projectName%3DUIAPI%26env%3DAnton%26SID%3DTue%2BApr%2B26%2B10%253A26%253A07%2BMSK%2B2022%26testName%3DAPI%2Brequests%2Bchecking+HTTP%2F1.1null2022-04-26+10%3A26%3A21+DEBUG+-+Target+auth+state%3A+UNCHALLENGEDnull2022-04-26+10%3A26%3A21+DEBUG+-+Proxy+auth+state%3A+UNCHALLENGEDnull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+POST+%2Fapi%2Ftest%2Fput%3Fbrowser%3Dchrome%26methodName%3DtestUIAPI%26startTime%3D2022%252F04%252F26%2B10%253A26%253A04%26projectName%3DUIAPI%26env%3DAnton%26SID%3DTue%2BApr%2B26%2B10%253A26%253A07%2BMSK%2B2022%26testName%3DAPI%2Brequests%2Bchecking+HTTP%2F1.1null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+user-agent%3A+unirest-java%2F3.1.00null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+accept-encoding%3A+gzipnull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+Content-Length%3A+0null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+Host%3A+localhost%3A8080null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+Connection%3A+Keep-Alivenull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+%22POST+%2Fapi%2Ftest%2Fput%3Fbrowser%3Dchrome%26methodName%3DtestUIAPI%26startTime%3D2022%252F04%252F26%2B10%253A26%253A04%26projectName%3DUIAPI%26env%3DAnton%26SID%3DTue%2BApr%2B26%2B10%253A26%253A07%2BMSK%2B2022%26testName%3DAPI%2Brequests%2Bchecking+HTTP%2F1.1%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+%22user-agent%3A+unirest-java%2F3.1.00%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+%22accept-encoding%3A+gzip%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+%22Content-Length%3A+0%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+%22Host%3A+localhost%3A8080%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+%22Connection%3A+Keep-Alive%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3E%3E+%22%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22HTTP%2F1.1+403+Forbidden%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22X-Content-Type-Options%3A+nosniff%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22Cache-Control%3A+must-revalidate%2Cno-cache%2Cno-store%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22Content-Type%3A+text%2Fhtml%3Bcharset%3Diso-8859-1%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22Content-Length%3A+555%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22Server%3A+Jetty%289.4.43.v20210629%29%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%5B%5Cr%5D%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Chtml%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Chead%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Cmeta+http-equiv%3D%22Content-Type%22+content%3D%22text%2Fhtml%3Bcharset%3Dutf-8%22%2F%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Ctitle%3EError+403+No+valid+crumb+was+included+in+the+request%3C%2Ftitle%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3C%2Fhead%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Cbody%3E%3Ch2%3EHTTP+ERROR+403+No+valid+crumb+was+included+in+the+request%3C%2Fh2%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Ctable%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Ctr%3E%3Cth%3EURI%3A%3C%2Fth%3E%3Ctd%3E%2Fapi%2Ftest%2Fput%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Ctr%3E%3Cth%3ESTATUS%3A%3C%2Fth%3E%3Ctd%3E403%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Ctr%3E%3Cth%3EMESSAGE%3A%3C%2Fth%3E%3Ctd%3ENo+valid+crumb+was+included+in+the+request%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Ctr%3E%3Cth%3ESERVLET%3A%3C%2Fth%3E%3Ctd%3EStapler%3C%2Ftd%3E%3C%2Ftr%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3C%2Ftable%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3Chr%3E%3Ca+href%3D%22https%3A%2F%2Feclipse.org%2Fjetty%22%3EPowered+by+Jetty%3A%2F%2F+9.4.43.v20210629%3C%2Fa%3E%3Chr%2F%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3C%2Fbody%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+%22%3C%2Fhtml%3E%5B%5Cn%5D%22null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+HTTP%2F1.1+403+Forbiddennull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+X-Content-Type-Options%3A+nosniffnull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+Cache-Control%3A+must-revalidate%2Cno-cache%2Cno-storenull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+Content-Type%3A+text%2Fhtml%3Bcharset%3Diso-8859-1null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+Content-Length%3A+555null2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1+%3C%3C+Server%3A+Jetty%289.4.43.v20210629%29null2022-04-26+10%3A26%3A21+DEBUG+-+Connection+can+be+kept+alive+indefinitelynull2022-04-26+10%3A26%3A21+DEBUG+-+Connection+%5Bid%3A+1%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D+can+be+kept+alive+indefinitelynull2022-04-26+10%3A26%3A21+DEBUG+-+http-outgoing-1%3A+set+socket+timeout+to+0null2022-04-26+10%3A26%3A21+DEBUG+-+Connection+released%3A+%5Bid%3A+1%5D%5Broute%3A+%7B%7D-%3Ehttp%3A%2F%2Flocalhost%3A8080%5D%5Btotal+available%3A+1%3B+route+allocated%3A+1+of+20%3B+total+allocated%3A+1+of+200%5Dnull2022-04-26+10%3A26%3A21+DEBUG+-+Cancelling+request+executionnull&testId=%3Chtml%3E%0A%3Chead%3E%0A%3Cmeta+http-equiv%3D%22Content-Type%22+content%3D%22text%2Fhtml%3Bcharset%3Dutf-8%22%2F%3E%0A%3Ctitle%3EError+403+No+valid+crumb+was+included+in+the+request%3C%2Ftitle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%3Ch2%3EHTTP+ERROR+403+No+valid+crumb+was+included+in+the+request%3C%2Fh2%3E%0A%3Ctable%3E%0A%3Ctr%3E%3Cth%3EURI%3A%3C%2Fth%3E%3Ctd%3E%2Fapi%2Ftest%2Fput%3C%2Ftd%3E%3C%2Ftr%3E%0A%3Ctr%3E%3Cth%3ESTATUS%3A%3C%2Fth%3E%3Ctd%3E403%3C%2Ftd%3E%3C%2Ftr%3E%0A%3Ctr%3E%3Cth%3EMESSAGE%3A%3C%2Fth%3E%3Ctd%3ENo+valid+crumb+was+included+in+the+request%3C%2Ftd%3E%3C%2Ftr%3E%0A%3Ctr%3E%3Cth%3ESERVLET%3A%3C%2Fth%3E%3Ctd%3EStapler%3C%2Ftd%3E%3C%2Ftr%3E%0A%3C%2Ftable%3E%0A%3Chr%3E%3Ca+href%3D%22https%3A%2F%2Feclipse.org%2Fjetty%22%3EPowered+by+Jetty%3A%2F%2F+9.4.43.v20210629%3C%2Fa%3E%3Chr%2F%3E%0A%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "HTTP/1.1 403 Forbidden[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "X-Content-Type-Options: nosniff[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Content-Length: 559[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "Server: Jetty(9.4.43.v20210629)[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "[\r][\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<html>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<head>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<title>Error 403 No valid crumb was included in the request</title>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</head>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<body><h2>HTTP ERROR 403 No valid crumb was included in the request</h2>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<table>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>URI:</th><td>/api/test/put/log</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>STATUS:</th><td>403</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>MESSAGE:</th><td>No valid crumb was included in the request</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<tr><th>SERVLET:</th><td>Stapler</td></tr>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</table>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "<hr><a href="https://eclipse.org/jetty">Powered by Jetty:// 9.4.43.v20210629</a><hr/>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</body>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << "</html>[\n]"
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << HTTP/1.1 403 Forbidden
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << X-Content-Type-Options: nosniff
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Cache-Control: must-revalidate,no-cache,no-store
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Content-Type: text/html;charset=iso-8859-1
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Content-Length: 559
+2022-04-26 10:26:21 DEBUG - http-outgoing-1 << Server: Jetty(9.4.43.v20210629)
+2022-04-26 10:26:21 DEBUG - Connection can be kept alive indefinitely
+2022-04-26 10:26:21 DEBUG - Cancelling request execution
+2022-04-26 10:26:21 DEBUG - http-outgoing-1: Shutdown connection
+2022-04-26 10:26:21 DEBUG - Connection discarded
+2022-04-26 10:26:21 DEBUG - Connection released: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 20; total allocated: 0 of 200]

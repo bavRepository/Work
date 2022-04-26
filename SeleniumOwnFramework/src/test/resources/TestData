@@ -1,0 +1,3 @@
+login=admin
+password=admin
+uploadFile=src\\main\\resources\\UploadFile.txt
